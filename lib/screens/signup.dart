@@ -170,6 +170,11 @@ class _SignupState extends State<Signup> {
                                       const Color.fromARGB(255, 6, 83, 46),
                                 ),
                               );
+                              Future.delayed(Duration(seconds: 1), () {
+                                Navigator.restorablePushReplacementNamed(
+                                    context, "login");
+                              });
+                              ;
                             }
                           } catch (e) {
                             var exception = e.toString().split("]");
