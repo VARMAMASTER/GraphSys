@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "991952072150",
+    "project_id": "graphsys-3ef1c",
+    "storage_bucket": "graphsys-3ef1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991952072150:android:26dbe6a7a6150e865e8877",
+        "android_client_info": {
+          "package_name": "com.example.graphsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991952072150-913soc0r990hsdru0p1iupqggnmmh7ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-qvtJ9VEAWIICd5C5Sec-Bj52zi928eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991952072150-913soc0r990hsdru0p1iupqggnmmh7ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
