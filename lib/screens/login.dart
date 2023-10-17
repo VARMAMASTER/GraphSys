@@ -26,6 +26,29 @@ class _LoginState extends State<Login> {
               iconSize: 50,
               onPressed: () {
                 Navigator.of(context).popAndPushNamed("home");
+
+                // Add a delay of 60 seconds (60000 milliseconds)
+                Future.delayed(Duration(seconds: 60), () {
+                  showDialog(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return AlertDialog(
+                        title: Text("Your time is up"),
+                        content: Text("Please login to enter"),
+                        actions: [
+                          TextButton(
+                            child: Text("OK"),
+                            onPressed: () {
+                              Navigator.of(context).pop(); // Close the dialog
+                              Navigator.of(context).popAndPushNamed(
+                                  "login"); // Return to the login screen
+                            },
+                          ),
+                        ],
+                      );
+                    },
+                  );
+                });
               },
             ),
           ],
